@@ -9,7 +9,6 @@ Muss name des jeweiligen Headers sein
 */
 #define OUTPUT_FORM diceOutput
 
-#define HOW_MANY_LAMPS 7
 /*
 Definition aller LED Pins
 		  l   r
