@@ -27,10 +27,10 @@ Der Code ist in drei Module geteilt.
   - private enthält die Variablen für die verschiedenen LED Pins
   - public muss enthalten:
   
-    construcktor <className>( 7 ints for the LED-Pins) -> speichert die übergebenen Pins lokal
-    void doOutput(int num)  -> gibt die übergebene zahl aus 
-    void doAnimation()      -> gibt die Start animation aus
-    void doReset()          -> schaltet alle LED's aus
+    - construcktor <className>( 7 ints for the LED-Pins) -> speichert die übergebenen Pins lokal
+    - void doOutput(int num)  -> gibt die übergebene zahl aus 
+    - void doAnimation()      -> gibt die Start animation aus
+    - void doReset()          -> schaltet alle LED's aus
   
  3. .ino Datei
   - erstellt das Object des Ausgabeformates
@@ -42,5 +42,4 @@ Der Code ist in drei Module geteilt.
   
   
   Um die LEDs in der Standartausgabe zu benutzen, müssen die LED's an den Pins 13- 7 angeschlossen und mit jeweils einem Widerstand mit GND verbunden werden. Der Button muss mit Strom an Pin 2 angeschlossen werden und auch mit einem PullDown Widerstand an GND angeschlossen werden muss.
-  
-    **Zum Beenden die Stromverbindung trennen.**
+  **Zum Beenden die Stromverbindung trennen.**
