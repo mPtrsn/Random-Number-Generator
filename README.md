@@ -7,4 +7,4 @@ Der Code zum Ausgabe einer Zufallszahl mithilfe eines Arduinos
 3. Auf fie Start Animation warten.
 4. Den Knopf drücken um eine Zufallszahl zu Würfeln und anzeigen zu lassen.
 
-== Zum Beenden die Stromverbindung trennen.
+**Zum Beenden die Stromverbindung trennen.**
